@@ -34,4 +34,10 @@ console.log(firstName);
 console.log(lastName);
 console.log(age2);
 
+//Variables named apple and APPLE are two different variables.
+
+let apple = "This is apple";
+let APPLE = "This is APPLE";
+console.log(apple); 
+
 

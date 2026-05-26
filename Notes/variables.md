@@ -10,6 +10,15 @@ A variable is a “named storage” for data. We can use variables to store good
 
 To create a variable in JavaScript, use the let keyword.
 
+Variable naming
+There are two limitations on variable names in JavaScript:
+
+The name must contain only letters, digits, or the symbols $ and _.
+The first character must not be a digit.
+
+Case matters
+Variables named apple and APPLE are two different variables.
+
 Summary
 We can declare variables to store data by using the var, let, or const keywords.
 
