@@ -129,7 +129,7 @@ Print introduction in 2–3 lines. */
 let user={
 namenew: 'Rohit',
 latestAge:23,
-hobby:'Playing',
+Hobby:'Playing',
 profession: 'QA'
 };
 
