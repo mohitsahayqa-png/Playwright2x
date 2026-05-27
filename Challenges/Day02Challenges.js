@@ -122,4 +122,8 @@ console.log(marks.total)
 averageMarks= (marks.total/3) + '%';
 console.log(averageMarks);
 
+let x=5;
+x+=3;
+console.log(x);
+
 
