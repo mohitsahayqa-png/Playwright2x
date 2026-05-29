@@ -129,3 +129,58 @@ if(username==''){
 else{
     console.log('Valid UserName');
 }
+
+//Using ternary operator
+
+/*1. Even or Odd
+
+Using ternary operator, print:
+
+"Even" if number is even
+otherwise "Odd"
+let num = 8;
+
+Expected:
+
+Even */
+
+let num=8
+let result= num%2==0 ? "Even" : "Odd";
+console.log(result);
+
+/*2. Eligible to Vote
+
+Check:
+
+age >= 18 → "Eligible"
+otherwise → "Not Eligible"
+let age = 16; */
+
+let agenew=16;
+let eligibility= agenew>=18 ? "Eligible": "Not Eligible";
+console.log(eligibility);
+
+/*if (a string with zero)
+importance: 5
+Will alert be shown? */
+
+if("0"){
+    console.log('Hello');//Block will be executed
+}
+
+/*Rewrite 'if' into '?'
+importance: 5
+Rewrite this if using the conditional operator '?':
+
+let result;
+
+if (a + b < 4) {
+  result = 'Below';
+} else {
+  result = 'Over';
+} */
+
+  let q=2;
+  let v=5;
+  let Avg= q+v<4 ? 'Below':'Over';
+  console.log(Avg);
