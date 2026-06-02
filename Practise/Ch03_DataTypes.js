@@ -63,3 +63,4 @@ console.log(person); // Output: { name: 'John', age: 30, isStudent: false }
 //Typeof operator
 console.log(typeof message);
 console.log(typeof sym1); // Output: symbol 
+console.log(typeof person); // Output: object

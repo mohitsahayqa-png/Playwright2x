@@ -141,3 +141,102 @@ for(let i=1;i<=10;i++){
     console.log(square);
     
 }
+console.log('--------------------') 
+
+
+/*Challenge 11
+
+Count even numbers between: */
+
+
+    let countnew=0;
+    for(let i=1;i<=100;i++){
+        if(i%2==0){
+            countnew++;
+        }
+    }
+    console.log(countnew);
+
+    console.log('--------------------') 
+
+    /*Challenge 12
+
+Count odd numbers between: */
+
+          let countnew1=0;
+    for(let i=1;i<=100;i++){
+        if(i%2!=0){
+            countnew1++;
+        }
+    }
+    console.log(countnew1);
+
+    console.log('--------------------') 
+
+    /*Challenge 13
+
+Find largest number from: */
+
+    let a = 15;
+    let b = 20;
+    let c = 12;
+    let largestNumber;
+
+    if(a>b && a>c){
+        largestNumber=a;
+    }
+    else if(b>a && b>c){
+    largestNumber=b;
+    }
+
+    else if(c>a&&c>b){
+    largestNumber=c;
+    }
+    console.log(largestNumber);
+
+    console.log('--------------------') 
+
+    /*Challenge 18
+
+Print numbers from 1 to 50 but skip 25. */
+
+    for(let i=1;i<=50;i++){
+        if(i==25){
+            continue
+        }
+        else{
+            console.log(i);
+        }
+    }
+
+        /*Factorial of 5 */
+
+        let factorial=5;
+
+        for(let i=4;i>=1;i--){
+
+            factorial=factorial*i;
+
+        }
+        console.log(factorial);
+
+        /*Challenge 10 (Best One)
+
+Print numbers:
+
+1 to 50
+
+Rules:
+
+Skip numbers divisible by 3
+Stop completely if number becomes 40 */
+
+for(let i=1;i<=50;i++){
+    if(i%3===0){
+        continue
+    }
+    else if(i===41){
+        break
+    }
+    console.log(i);
+}
