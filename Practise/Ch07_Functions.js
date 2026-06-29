@@ -28,3 +28,5 @@ toAdd(23,23);
 function add(a,b){
     console.log(a+b);
 }
+
+add(12,12);
