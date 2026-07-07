@@ -212,10 +212,11 @@ function findTotal(numbers){
     for(let i=0;i<numbers.length;i++){
         sumNew1+=numbers[i];
     }
-    console.log(sumNew1);
+    return sumNew1;
 }
 
-findTotal([10,10,10,10,10])
+let sumFinal=findTotal([10,10,10,10,10]);
+console.log(sumFinal);
 
 /**Challenge 18
 
