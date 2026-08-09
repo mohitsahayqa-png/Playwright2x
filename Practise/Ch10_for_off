@@ -1,0 +1,18 @@
+let users = ["Mohit", "Rahul", "Rohit"];
+
+for(let everyuser of users){
+    console.log(everyuser);
+}
+
+let usersNew = [
+    {name:"Mohit", role:"QA"},
+    {name:"Rahul", role:"Admin"},
+    {name:"Rohit", role:"Support"}
+];
+
+for(let everyobject of usersNew){
+    console.log(everyobject.name);
+    console.log(everyobject.role);
+}
+
+    

@@ -147,12 +147,13 @@ Expected:
 
 Hint: Create a counter and increment it inside the for...in loop. */
 
-count=0;
+let count=0;
 for(let key in browser){
     count++
 }
 
 console.log(count);
+
 
 /*Challenge 10
 
@@ -175,3 +176,141 @@ for(let key in browser){
         console.log('Platform Found')
     }
 }
+
+/*Challenge 11
+
+Create an array of users:
+
+[
+    {name:"Mohit", role:"QA"},
+    {name:"Rahul", role:"Admin"},
+    {name:"Rohit", role:"Support"}
+]
+
+Print every user's name. */
+
+let users=[
+    
+    {name:"Mohit", role:"QA"},
+    {name:"Rahul", role:"Admin"},
+    {name:"Rohit", role:"Support"}
+    
+]
+
+for(let i=0;i<users.length;i++){
+    console.log(users[i].name)
+}
+
+
+/*Challenge 12
+
+Print every user's role. */
+
+for(let i=0;i<users.length;i++){
+    console.log(users[i].role)
+}
+
+/*Challenge 13
+
+Print only users whose role is:
+
+Admin
+
+Expected:
+
+Rahul */
+
+for(let i=0;i<users.length;i++){
+    if(users[i].role==='Admin'){
+        console.log(users[i].name);
+    }
+}
+
+/*Challenge 14
+
+Count how many users are:
+
+QA */
+
+let countNew=0;
+for(let i=0;i<users.length;i++){
+    if(users[i].role==='Admin'){
+       countNew++
+    }
+}
+console.log(countNew);
+
+/*Challenge 15
+
+Add a fourth user:
+
+Amit
+Developer
+
+Print the entire array. */
+
+users.push({
+    name:"Amit",
+    role:"Developer"
+}
+)
+
+console.log(users);
+
+/*Challenge 16
+
+Imagine Playwright fetched menu items:
+
+let menu = [
+    {name:"Home", visible:true},
+    {name:"Search", visible:true},
+    {name:"Reports", visible:false},
+    {name:"Settings", visible:true}
+];
+
+Print only the menu names that are visible.
+
+Expected:
+
+Home
+Search
+Settings */
+
+let menu = [
+    {name:"Home", visible:true},
+    {name:"Search", visible:true},
+    {name:"Reports", visible:false},
+    {name:"Settings", visible:true}
+];
+
+for(let i=0;i<menu.length;i++){
+    if(menu[i].visible===true){
+       console.log(menu[i].name);
+    }
+}
+
+let visibleCount=0;
+for(let i=0;i<menu.length;i++){
+    if(menu[i].visible===true){
+       visibleCount++
+    }
+
+}
+console.log(visibleCount);
+
+/*Challenge 18
+
+Create a function:
+
+printMenu(menu)
+
+Accept the array and print every menu name. */
+
+function printMenu(menu){
+    for(let i=0;i<menu.length;i++){
+        console.log(menu[i].name);
+}
+
+}
+
+printMenu(menu);
